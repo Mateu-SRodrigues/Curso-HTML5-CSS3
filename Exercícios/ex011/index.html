@@ -9,6 +9,7 @@
     <h1>Imagem dinâmica/responsiva</h1>
     <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho da sua janela.</p>
     <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png"><!--Se o tamanho da janela do navegador for menor que 750px, ele vai carregar a imagem pequena 'foto-p.png'-->
         <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png"><!--Se o tamanho da janela do navegador for menor que 1050px, ele vai carregar a imagem média 'foto-m.png'-->
         <img src="Imagens/foto-g.png" alt="Imagem flexível">
     </picture>
