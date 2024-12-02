@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 9</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+        }
+        #thumb12, #thumb34 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Vídeos favoritos</h1>
-    <a href="video_daima.html"><img src="imagens/thumbs/thumb_daima.png" alt="Thumb de Dragon Ball Daima"></a>
-    <a href="video_curso.html"><img src="imagens/thumbs/thumb_html5&css3.jpeg" alt="Thumb Curso de HTML5 e CSS3"></a>
+    <div id="thumb12">
+        <a href="video_daima.html"><img src="imagens/thumbs/thumb_daima.png" alt="Thumb de Dragon Ball Daima"></a>
+        <a href="video_curso.html"><img src="imagens/thumbs/thumb_html5&css3.jpeg" alt="Thumb Curso de HTML5 e CSS3"></a>
+    </div>
     <br>
-    <a href="video_sparkingzero.html"><img src="imagens/thumbs/thumb_sparkingzero.jpeg" alt="Thumb de Sparking Zero"></a>
-    <a href="video_thunderbolts.html"><img src="imagens/thumbs/thumb_thunderbolts.jpeg" alt="Thumb de Thunderbolts"></a>
+    <div id="thumb34">
+        <a href="video_sparkingzero.html"><img src="imagens/thumbs/thumb_sparkingzero.jpeg" alt="Thumb de Sparking Zero"></a>
+        <a href="video_thunderbolts.html"><img src="imagens/thumbs/thumb_thunderbolts.jpeg" alt="Thumb de Thunderbolts"></a>
+    </div>
 </body>
 </html>
