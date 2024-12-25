@@ -17,6 +17,9 @@ h1#principal { /*ou #principal, relacionado somente ao h1 com id: principal*/
     background-color: rgb(4,  109, 0);
     color: white;
 }
+h2 {
+    color: #3c805e;
+}
 .basico {
     color: #3c805e;
 }
