@@ -8,8 +8,13 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
     }
-    div > p { /*Modifica o estilo do filho(p) de div*/
+    div > p { /*Modifica o estilo do filho(p) de div para não aparecer*/
         display: none;
+    }
+    div:hover > p { /*Revela o filho(p) quando o cursor passar por cima do pai(div) */
+        display: block;
+        color: white;
+        background-color: red;
     }
     div:hover { 
         color: red;
