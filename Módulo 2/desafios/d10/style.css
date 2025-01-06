@@ -1,9 +1,9 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'IDroid';
-    src: url('fontes/idroid.otf');
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
 }
-
 :root { /*Pseudo-classe que representa o elemento <html>*/
     --cor0: #c5edb6;
     --cor1: #83e1ad;
