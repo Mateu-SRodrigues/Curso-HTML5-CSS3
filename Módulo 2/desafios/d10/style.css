@@ -13,5 +13,9 @@
     --cor5: #063d1e;
     --fonte: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'BebasNeue', cursive;
-    --font-idroid: 'IDroid', cursive;
+    --fonte-idroid: 'IDroid', cursive;
+}
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte);
 }
