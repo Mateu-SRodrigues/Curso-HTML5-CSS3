@@ -6,6 +6,10 @@
     font-weight: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 :root { /*Pseudo-classe que representa o elemento <html>*/
     --cor0: #c5edb6;
     --cor1: #83e1ad;
