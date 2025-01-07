@@ -20,6 +20,7 @@
     --fonte: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-idroid: 'IDroid', cursive;
+    --entre-linhas: 2em;
 }
 body {
     background-color: var(--cor0);
