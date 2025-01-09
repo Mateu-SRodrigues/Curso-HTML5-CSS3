@@ -93,3 +93,6 @@ main p {
     font-size: 1em;
     line-height: 2em;
 }
+main strong {
+    color: var(--cor4);
+}
