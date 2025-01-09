@@ -102,3 +102,10 @@ main a {
     text-decoration: none;
     font-weight: bold;
 }
+main a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+main a:active {
+    color: var(--cor5);
+}
