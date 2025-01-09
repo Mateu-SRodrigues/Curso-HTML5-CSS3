@@ -109,3 +109,6 @@ main a:hover {
 main a:active {
     color: var(--cor5);
 }
+main > article {
+    font-family: var(--fonte);
+}
