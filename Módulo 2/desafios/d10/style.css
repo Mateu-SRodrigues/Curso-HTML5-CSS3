@@ -137,3 +137,9 @@ main .video {
 main a.externo::after {
     content: '\1F517';
 }
+aside {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+}
