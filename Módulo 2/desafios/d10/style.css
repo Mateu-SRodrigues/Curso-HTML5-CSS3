@@ -87,3 +87,9 @@ main h2 {
     font-weight: normal;
 
 }
+main p {
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+}
