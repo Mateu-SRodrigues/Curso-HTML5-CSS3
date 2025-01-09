@@ -63,3 +63,13 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor3);
 }
+main {
+    background-color: white;
+    display: block;
+    margin: 0px auto 20px auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 0px 0px 10px 10px;
+}
