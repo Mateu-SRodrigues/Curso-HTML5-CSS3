@@ -112,3 +112,11 @@ main a:active {
 main > article {
     font-family: var(--fonte);
 }
+main picture > img {
+    width: 100%;
+}
+main img.pequeno {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
