@@ -134,3 +134,6 @@ main .video {
     top: 5%;
     left: 5%;
 }
+main a.externo::after {
+    content: '\1F517';
+}
