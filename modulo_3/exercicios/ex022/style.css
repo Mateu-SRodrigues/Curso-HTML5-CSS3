@@ -17,4 +17,6 @@ body {
 }
 #q3 {
     background-image: url('imagens/pattern001.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
