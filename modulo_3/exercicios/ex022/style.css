@@ -12,3 +12,6 @@ body {
 #q1 {
     background-color: blueviolet;
 }
+#q2 {
+    background-image: linear-gradient(to bottom, lightcoral, darkred);
+}
