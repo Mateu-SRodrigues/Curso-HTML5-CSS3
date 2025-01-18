@@ -54,3 +54,6 @@ section.imagem > p {
     color: white;
     text-shadow: 1px 1px 0px black;
 }
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
