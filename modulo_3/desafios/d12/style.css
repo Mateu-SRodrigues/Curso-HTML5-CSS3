@@ -36,6 +36,13 @@ header p > a {
     font-weight: bold;
     text-decoration: none;
 }
+p > a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+p > a:active {
+    color: yellowgreen;
+}
 section {
     font-family: var(--fonte2);
     font-size: 3.5vw;
