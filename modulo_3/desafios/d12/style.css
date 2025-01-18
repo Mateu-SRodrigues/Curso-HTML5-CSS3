@@ -60,20 +60,6 @@ section#img1 {
     background-size: cover;
 }
 section#img2 {
-    background-image: url('imagens/background002.jpg');
-    background-position: left center;
-    background-repeat: no-repeat;
+    background: url('imagens/background002.jpg') left center no-repeat fixed;
     background-size: cover;
-    background-attachment: fixed;
-}
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-footer p > a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
 }
