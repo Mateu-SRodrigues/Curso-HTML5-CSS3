@@ -71,3 +71,14 @@ section#img2 {
     background-size: cover;
     background-attachment: fixed;
 }
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
