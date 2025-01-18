@@ -44,3 +44,6 @@ section {
     padding-left: 30px;
     line-height: 2em;
 }
+section > p {
+    padding-bottom: 2em;
+}
