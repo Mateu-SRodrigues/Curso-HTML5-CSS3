@@ -70,8 +70,8 @@ section#img1 {
     background-position: right center;
 }
 section#img2 {
-    background: url('imagens/background002.jpg') left center no-repeat fixed;
-    background-size: cover;
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
 }
 footer {
     background-color: black;
