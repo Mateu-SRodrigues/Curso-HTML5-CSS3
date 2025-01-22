@@ -22,7 +22,17 @@
             background-color: gray;
             color: yellow;
         }
-        tbody > tr:nth-child(odd) {
+        /* Efeito Zebrado */
+        tbody > tr:nth-child(odd) { 
+            /* Valores para :nht-child()
+                -> n: selecionas todos os filhos;
+                -> even: seleciona os filhos em posições pares;
+                -> odd: seleciona os filhos em posições ímpares;
+                -> (número): seleciona um número expecífico, como 8;
+                -> an + b: n = número inteiro;
+                           a = intervalo entre os números;
+                           b = número de início;
+             */
             background-color: lightgray;
         }
         th, td {
