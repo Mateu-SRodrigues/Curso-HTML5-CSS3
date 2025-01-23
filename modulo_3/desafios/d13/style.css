@@ -3,6 +3,7 @@ body {
 }
 table {
     width: 400px;
+    border-spacing: 1px;
 }
 td {
     border: 1px solid black;
